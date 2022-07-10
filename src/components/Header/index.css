@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.header-container-in-sm {
+  display: none;
+}
+.header-container-in-lg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.nav-image {
+  width: 150px;
+}
+
+.nav-text-container {
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+}
+li {
+  margin-right: 10px;
+}
+
+.link-style {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-decoration: none;
+}
+.exit-button {
+  color: white;
+  background-color: #0b69ff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 992px) {
+  .header-container-in-sm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+  }
+  .header-container-in-lg {
+    display: none;
+  }
+  .nav-logo-exit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-image-sm {
+    width: 20%;
+  }
+  .image-sm {
+    width: 100%;
+  }
+  .sm-exit-button {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: none;
+  }
+  .icon {
+    width: 30px;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6f6ff;
+    padding: 10px;
+  }
+}

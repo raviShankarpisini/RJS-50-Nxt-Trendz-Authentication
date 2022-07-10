@@ -1,0 +1,71 @@
+
+
+
+/* Write your CSS code here */
+.home-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+.image-container {
+  width: 65%;
+}
+.login-image {
+  width: 80%;
+
+  align-self: center;
+}
+.form-container {
+  width: 35%;
+  padding: 15px;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.form-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-image {
+  width: 50%;
+}
+input {
+  background-color: #d7dfe9;
+  width: 100%;
+  border: none;
+  height: 30px;
+}
+
+.submit-button {
+  align-self: center;
+  color: white;
+  background-color: #0967d2;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .image-container {
+    width: 80%;
+  }
+  .form-container {
+    width: 80%;
+  }
+  .login-image {
+    width: 80%;
+  }
+}
